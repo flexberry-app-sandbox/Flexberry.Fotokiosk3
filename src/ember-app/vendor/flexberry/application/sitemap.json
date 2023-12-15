@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "Fotokiosk3",
+  "applicationTitle": "Fotokiosk3",
+  "items": [
+    {
+      "link": null,
+      "menuName": "fotokiosk3",
+      "caption": "Fotokiosk3",
+      "title": "Fotokiosk3",
+      "children": [
+        {
+          "link": "i-i-s-fotokiosk3-оплата-l",
+          "menuName": null,
+          "caption": "Оплата",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fotokiosk3-сделать-фото-l",
+          "menuName": null,
+          "caption": "Сделать фото",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fotokiosk3-печать-фото-l",
+          "menuName": null,
+          "caption": "Печать фото",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fotokiosk3-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-fotokiosk3-отправ-на-почту-l",
+          "menuName": null,
+          "caption": "Отправ на почту",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

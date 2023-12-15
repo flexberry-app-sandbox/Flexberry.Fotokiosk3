@@ -1,0 +1,1 @@
+docker-compose -p fotokiosk3 up -d

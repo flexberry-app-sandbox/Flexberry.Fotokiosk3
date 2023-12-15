@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Оплата",
+      "projection": "ОплатаL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Клиент",
+  "name": "IISFotokiosk3КлиентE",
+  "className": "КлиентE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-fotokiosk3-клиент",
+      "modelProjection": "КлиентE"
+    }
+  ]
+}

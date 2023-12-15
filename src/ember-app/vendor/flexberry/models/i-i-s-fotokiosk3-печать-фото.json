@@ -1,0 +1,130 @@
+﻿{
+  "name": "IISFotokiosk3ПечатьФото",
+  "modelName": "i-i-s-fotokiosk3-печать-фото",
+  "className": "ПечатьФото",
+  "nameSpace": "IIS.Fotokiosk3",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "размер",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сделатьФото",
+      "relatedTo": "i-i-s-fotokiosk3-сделать-фото",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПечатьФотоE",
+      "modelName": "i-i-s-fotokiosk3-печать-фото",
+      "attrs": [
+        {
+          "name": "размер",
+          "caption": "Размер",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "КолВоФото",
+          "lookupValueField": "колВоФото",
+          "relationName": "СделатьФото",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "колВоФото",
+              "caption": "Количество фото",
+              "hidden": true,
+              "index": 2
+            },
+            {
+              "name": "категорФото",
+              "caption": "Категория фото",
+              "hidden": false,
+              "index": 3
+            },
+            {
+              "name": "цена",
+              "caption": "Стоимость",
+              "hidden": false,
+              "index": 4
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Сделать фото",
+          "name": "сделатьФото",
+          "relatedTo": "i-i-s-fotokiosk3-сделать-фото",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ПечатьФотоL",
+      "modelName": "i-i-s-fotokiosk3-печать-фото",
+      "attrs": [
+        {
+          "name": "размер",
+          "caption": "Размер",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "СделатьФото",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "колВоФото",
+              "caption": "Количество фото",
+              "hidden": false,
+              "index": 1
+            },
+            {
+              "name": "категорФото",
+              "caption": "Категория фото",
+              "hidden": false,
+              "index": 2
+            },
+            {
+              "name": "цена",
+              "caption": "Стоимость",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Количество фото",
+          "name": "сделатьФото",
+          "relatedTo": "i-i-s-fotokiosk3-сделать-фото",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

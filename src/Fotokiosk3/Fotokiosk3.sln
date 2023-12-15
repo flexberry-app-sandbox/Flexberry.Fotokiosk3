@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fotokiosk3.Objects", "Objects/Fotokiosk3.Objects.csproj", "{A47BEEE6-F0FE-4570-86CC-8433DCD7442B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fotokiosk3.ODataBackend", "ODataBackend/Fotokiosk3.ODataBackend.csproj", "{17D82A17-9481-4485-AC37-B61640A1076A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A47BEEE6-F0FE-4570-86CC-8433DCD7442B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A47BEEE6-F0FE-4570-86CC-8433DCD7442B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A47BEEE6-F0FE-4570-86CC-8433DCD7442B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A47BEEE6-F0FE-4570-86CC-8433DCD7442B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17D82A17-9481-4485-AC37-B61640A1076A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D82A17-9481-4485-AC37-B61640A1076A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D82A17-9481-4485-AC37-B61640A1076A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D82A17-9481-4485-AC37-B61640A1076A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

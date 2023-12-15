@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-fotokiosk3-оплата-e",
+  "editForm": "i-i-s-fotokiosk3-оплата-e",
+  "external": false,
+  "caption": "Оплата",
+  "name": "IISFotokiosk3ОплатаL",
+  "className": "ОплатаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-fotokiosk3-оплата",
+      "modelProjection": "ОплатаL"
+    }
+  ]
+}

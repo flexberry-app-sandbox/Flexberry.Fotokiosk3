@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СделатьФото",
+      "projection": "СделатьФотоL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Оплата",
+  "name": "IISFotokiosk3ОплатаE",
+  "className": "ОплатаE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-fotokiosk3-оплата",
+      "modelProjection": "ОплатаE"
+    }
+  ]
+}
